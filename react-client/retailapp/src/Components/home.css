@@ -1,0 +1,16 @@
+/* Style for the image collage container */
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Gap between images */
+    padding: 20px; /* Padding around the collage */
+    max-width: 1200px; /* Limit the maximum width of the collage */
+    margin: 0 auto; /* Center the collage horizontally */
+}
+
+/* Style for individual images in the collage */
+.image-collage img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+}

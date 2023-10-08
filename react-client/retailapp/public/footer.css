@@ -1,0 +1,49 @@
+  
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 200vh; /* Set minimum height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+    a {
+        color: white;
+        text-decoration: none ;
+        transition: all 0.3s;
+      }
+ 
+  
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  .form-control {
+    background:  #d7dde4 ;  
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #ced6df;
+  }
+  
+  footer {
+    background: #212529; 
+    /* background-color: #333; */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /* Position the footer at the bottom */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+    /* body, html {
+      height: 100%;
+    } */
